@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>JS Bin</title>
+        <link rel="stylesheet" href="viragpostaStyle.css">
+        <script src="https://code.jquery.com/jquery.min.js"></script>
+      <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+          
+        <style>
+            img{
+                width:50%;
+            }
+            div{
+                margin:40px;
+            }
+        </style>
+    </head>
+    <header>
+        <div id="divbody">
+            <div id="banner">
+                <h2 id="bannertitle">Üdvözöljük oldalunkon!</h2>
+                <h3 id="miben">Miben segíthetünk?</h3>
+                <h3 id="giccs">Válasszon egy giccset!</h3>
+            </div>
+            <nav class="main">
+                <ul>
+                    <li id="1"> <a href="viragposta.html" class="basic first">Main Page</a></li>
+                    <li id="2">  <a href="viragpostaSecond.html" class="basic second" >Form, etc.</a></li>
+                    <li id="3"> <a href="" class="basic third">Kávé?</a></li>
+                    <li id="4">  <a href="viragpostaTermekeink.html" class="basic fourth" >Termékeink</a></li>
+                    <li id="5"> <a href="viragpostaGaleria.html" class="basic fifth" >Galéria</a> </li>
+                    <li id="5"> <a href="viragpostaBootstrap.html" class="basic fifth" >W3Schools CSS</a> </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+ <div class="gallerydiv">
+    <h2 class="w3-center">Diavetítés</h2>
+    <h3>Termékeinket itt is megtekintheti</h3>
+    <h4>Ez részben külső stíluslap</h4>
+    <button class="btn-danger" onclick="plusDivs(+3)">Ok, piros muskátli</button>
+    <div>
+    <div class="w3-content w3-display-container gallery" >
+        <img class="mySlides w3-sepia-min w3-round" src="bunny.jpg">
+        <img class="w3-round mySlides w3-sepia" src="cica.jpg" >
+        <img class="mySlides w3-sepia-max" src="dog.jpg" >
+        <img class="mySlides" src="muskatli.jpg" >
+        <img src="nagygiccs.jpg" class="mySlides">
+        <img src="karifa.jpg" class="mySlides">
+        <img src="gyumi.jpg" class="mySlides">
+        <img src="karifa.jpg" class="mySlides">
+        <img src="nagygiccs.jpg" class="mySlides">
+        <img src="gyumi.jpg" class="mySlides">
+</div>
+    </div>
+        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+    
+  
+    
+    
+ </div>
+   <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = x.length
+            }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex - 1].style.display = "block";
+        }
+        
+    </script>
+<script src="viragposta.js"></script>
+</body>
+</html>

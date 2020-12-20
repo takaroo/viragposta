@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Virágbposta BootStrap</title>
+        <script src="https://code.jquery.com/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    </head>
+    <header>
+        <div class="container-fluid">
+            <div class="w3-blue">
+                <div class="w3-container">
+                    <h2 class="3-left w3-animate-right">Üdvözöljük oldalunkon!</h2>
+                    <h3  class="w3-right w3-animate-left">Miben segíthetünk?</h3>
+                    <h3 class="w3-animate-zoom">Válasszon egy giccset!</h3>
+                </div>
+                 
+                
+                <div class="">
+                    <nav class="">
+                        <ul class="w3-bar w3-card-4 w3-bar w3-light-grey w3-padding-24 w3-ul">
+                            <li id="1" class="nav-item"> <a href="viragposta.html" class="w3-bar-item w3-bar-block w3-button w3-card-4 w3-li">Mains page</a></li>
+                            <li id="2" class="nav-item">  <a href="viragpostaSecond.html" class="w3-bar-item w3-bar-block w3-button w3-card-4">Form, etc.</a></li>
+                            <li id="3" class="nav-item"> <a href="" class="w3-bar-item w3-bar-block w3-button w3-card-4">Kávé?</a></li>
+                            <li id="4" class="nav-item">  <a href="viragpostaTermekeink.html"  class="w3-bar-item w3-bar-block w3-button w3-card-4">Termékeink</a></li>
+                            <li id="5" class="nav-item"> <a href="viragpostaGaleria.html" class="w3-bar-item w3-bar-block w3-button w3-card-4">Galéria</a> </li>
+                            <li id="5" class="nav-item"> <a href="viragpostaBootstrap.html" class="w3-bar-item w3-bar-block w3-button w3-card-4">W3Schools CSS</a> </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+    </header>
+    <body style="background-color:lightblue;">
+   <div class="w3-tooltip">
+
+    <div class="w3-sidebar w3-bar-block w3-collapse w3-card" style="width:200px;" id="mySidebar">
+                  <p class="w3-text w3-padding">A nyúl a kirakat rész, nem eladó!</p>
+
+        <button class="w3-bar-item w3-button w3-hide-large"
+                onclick="w3_close()">Close &times;</button>
+        <a href="#" class="w3-bar-item w3-button"><img class="w3-animate-fading" src="bunny.jpg" style="width:140px;"></a>
+        <p class="w3-blue" style="text-shadow:1px 1px 0 #444;padding:10px;">" et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit </p>
+    </div>
+       </div>
+    <div class="w3-main" style="margin-left:200px">
+    </div>
+    <div id="divbody">   
+
+        <div class="w3-panel w3-center w3-leftbar w3-sand w3-panel w3-border w3-hover-border-red w3-container w3-center w3-animate-zoom">
+            <h1><i class="w3-serif w3-xlarge">
+                    <span style="font-size:50px;line-height:0.3em;opacity:0.2">&#10004;</span>
+                    <span style="font-size:100px;opacity:0.2">Virágposta</span></i></h1>
+        </div> 
+        <div class="w3-row">
+            <div class="w3-col l10 s6w3-center"><p>
+                <div class="w3-card-4 w3-dark-grey w3-hover-green">
+
+                    <div class="w3-container w3-center w3-padding-32">
+                        <h3 class="w3-hover-green">Kiemelt ajánlatunk</h3>
+                        <img src="nagygiccs.jpg" class="w3-border w3-padding img w3-animate-bottom w3-hover-opacity">
+                        <h5>nagygiccs</h5>
+
+                        <button class="w3-button w3-green">Megvásárolom</button>
+                    </div>
+                    <div class="w3-panel w3-pale-yellow w3-border w3-border-yellow w3-right-align w3-padding-32">
+                        <button id="megse" class="w3-badge w3-green w3-padding">Mégsem szeretnék vásárolni!</button>
+                        <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black w3-padding">Szeretnék vásárolni!</button>
+                        <button id="allj" class="w3-badge w3-margin-left w3-red w3-padding">Stop!</button>
+                        <button id="megis">Mégis!!</button>
+                    </div> 
+                    
+                    <div class="w3-container w3-center w3-padding-32">
+                        <a href="javascript:void(0)" class="w3-hover-opacity" onclick="openImg('Nature');">
+                        </a>
+
+                        <div id="Nature" class="picture w3-display-container">
+                            <img src="rose.jpg" alt="Érdeklik a rózsák?" style="width:50%"  class="w3-hover-sepia img w3-round-small">
+                            <span onclick="this.parentElement.style.display = 'none'" class="w3-display-bottomright"> <button class="w3-button w3-red">Nem!</button></span>
+                            <div class="w3-display-topright w3-container"> <button class="w3-button w3-khaki">Érdeklik a rózsák?</button></div>
+                        </div> 
+                    </div>
+                </div> 
+            </div>
+            <div class="w3-col l2 s6 w3-sand w3-center w3-padding-24">
+                <ul class="w3-ul w3-hoverable">
+                    <li> fringilla orci placerat, mattis elit sed, condimentum urna. Morbi dictum urna eu imperdiet egestas. Mauris facilisis interdum enim at maximus</li>
+                    <li>  nec ipsum non efficitur.</li>
+                    <li>Donec rutrum justo eu gravida faucibus. Phasellus euismod, metus quis aliquet elementum, lectus metus congue leo, a dictum diam ante</li>
+                    <li>  is rutrum tortor neque</li>
+                    <li> n aliquet erat, quis viverra puru </li>
+                    <li> fringilla orci placerat, mattis elit sed, condimentum urna. Morbi dictum urna eu imperdiet egestas. Mauris facilisis interdum enim at maximus</li>
+                    <li>  nec ipsum non efficitur.</li>
+                    <li>Donec rutrum justo eu gravida faucibus. Phasellus euismod, metus quis aliquet elementum, lectus metus congue leo, a dictum diam ante</li>
+                    <li>  is rutrum tortor neque</li>
+                    <li> n aliquet erat, quis viverra puru </li>
+                    <li> fringilla orci placerat, mattis elit sed, condimentum urna. Morbi dictum urna eu imperdiet egestas. Mauris facilisis interdum enim at maximus</li>
+                    <li>  nec ipsum non efficitur.</li>
+                </ul>
+                <img src="karifa.jpg" class="w3-opacity-max img w3-circle w3-hover-grayscale">
+            </div>
+            <div class="w3-blue w3-padding w3-right w3-margin w3-hover-red" style="width:50%;">   
+                <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
+            </div>
+    </div>
+    <div class="w3-dark-grey w3-padding-64 w3-container w3-center" style="right:0;">
+               <table class="w3-right-align"  style="right:0;">
+                    <tr class="w3-padding-24">
+                        <th class="w3-padding w3-panel w3-border w3-border-red w3-hover-border-green">Firstname</th>
+                        <th class="w3-padding w3-panel w3-border w3-border-red w3-hover-border-green">Lastname</th>
+                        <th class="w3-padding w3-panel w3-border w3-border-red w3-hover-border-green">Age</th>
+                         <th class="w3-padding w3-panel w3-border w3-border-red w3-hover-border-green">accusantium</th>
+                        <th class="w3-padding w3-panel w3-border w3-border-red w3-hover-border-green">viverra</th>
+                        <th class="w3-padding w3-panel w3-border w3-border-red w3-hover-border-green">omnis</th>
+                         <th class="w3-padding w3-panel w3-border w3-border-red w3-hover-border-green">Firstname</th>
+                        <th class="w3-padding w3-panel w3-border w3-border-red w3-hover-border-green">Lastname</th>
+                        <th class="w3-padding w3-panel w3-border w3-border-red w3-hover-border-green">Age</th>
+                         <th class="w3-padding w3-panel w3-border w3-border-red w3-hover-border-green">accusantium</th>
+                        <th class="w3-padding w3-panel w3-border w3-border-red w3-hover-border-green">viverra</th>
+                        <th class="w3-padding w3-panel w3-border w3-border-red w3-hover-border-green">omnis</th>
+                           <th class="w3-padding w3-panel w3-border w3-border-red w3-hover-border-green">accusantium</th>
+                        <th class="w3-padding w3-panel w3-border w3-border-red w3-hover-border-green">viverra</th>
+                        <th class="w3-padding w3-panel w3-border w3-border-red w3-hover-border-green">omnis</th>
+                    </tr>
+                    <tr>
+                        <td class="w3-padding">Firstname</td>
+                        <td class="w3-padding">Lastname</td>
+                        <td class="w3-padding">Age</td>
+                        <td class="w3-padding w3-panel w3-leftbar w3-border-blue w3-pale-blue">1</td>
+                        <td class="w3-padding">2</td>
+                        <td class="w3-padding">3</td>
+                           <td class="w3-padding">Firstname</td>
+                        <td class="w3-padding">Lastname</td>
+                        <td class="w3-padding">Age</td>
+                        <td class="w3-padding w3-panel w3-leftbar w3-border-blue w3-pale-blue">1</td>
+                        <td class="w3-padding">2</td>
+                        <td class="w3-padding">3</td>
+                    </tr>
+                    <tr>
+                        <td class="w3-padding">Firstname</td>
+                        <td class="w3-padding">Lastname</td>
+                        <td class="w3-padding">Age</td>
+                          <td class="w3-padding">Age</td>
+                        <td class="w3-padding">1</td>
+                        <td class="w3-padding w3-panel w3-leftbar w3-border-blue w3-pale-blue">2</td>
+                        <td class="w3-padding">3</td>
+                        <td class="w3-padding">1</td>
+                        <td class="w3-padding w3-panel w3-leftbar w3-border-blue w3-pale-blue">2</td>
+                        <td class="w3-padding">3</td>
+                    </tr>
+                    <tr>
+                        <td class="w3-padding">Firstname</td>
+                        <td class="w3-padding">Lastname</td>
+                        <td class="w3-padding">Age</td>
+                        <td class="w3-padding">1</td>
+                        <td class="w3-padding">2</td>
+                        <td class="w3-padding w3-panel w3-leftbar w3-border-blue w3-pale-blue">3</td>
+                    </tr>
+
+                </table> 
+        
+                    </div>
+ 
+        
+</div>
+        
+
+
+
+        <footer>
+<div id="id01" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-teal"> 
+        <span onclick="document.getElementById('id01').style.display='none'" 
+        class="w3-button w3-display-topright">&times;</span>
+        <h2>Kérjük, ne hívjon, elromlott a telefon!</h2>
+      </header>
+  
+    </div>
+  </div>
+            </footer>
+    <script>
+        function w3_open() {
+            document.getElementById("mySidebar").style.display = "block";
+        }
+
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+        }
+        function openImg(imgName) {
+            var i, x;
+            x = document.getElementsByClassName("picture");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            document.getElementById(imgName).style.display = "block";
+        }
+        
+       
+    </script>
+    <script src="viragposta.js"></script>
+</body>
+</html>
